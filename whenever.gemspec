@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "whenever/version"
 
 Gem::Specification.new do |s|
-  s.name        = "whenever"
+  s.name        = "lowang-whenever"
   s.version     = Whenever::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Javan Makhmali"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   s.add_dependency "chronic", "~> 0.6.3"
-  s.add_dependency "activesupport", ">= 2.3.4"
+  s.add_dependency "activesupport", ">= 2.3.2"
   
   s.add_development_dependency "shoulda", ">= 2.1.1"
   s.add_development_dependency "mocha", ">= 0.9.5"
